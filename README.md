@@ -24,7 +24,7 @@ We used Google Earth Engine to generate the Dataset from Crop Land Data Layer pr
 Top Images are Landsat8 image, Ground-Truth and Predicted Results for cultivated area respectively (Black pixels represent non-cultivated and white pixels are cultivated area,
  whereas Bottom Images are of Landsat8, Ground-Truth and classified Crops (Yellow as Corn, Green as Soyabean, orange as Winter Wheat, Pink as Alfalfa and Black as Other crops).
 
-![UNet](Images/visual results.PNG)
+![UNet](Images/visual_results.PNG)
 
 # Quantitative Results
 
