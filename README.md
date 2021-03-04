@@ -4,11 +4,25 @@ This Repository contains code (will be published after paper acceptance) and ben
 Deep Learning Based Land Cover and Crop Type Classification: A Comparative Study
 ```
 
-### Segmentation Models
+# Segmentation Models
 1. UNet
 2. SegNet
 3. DeepLabv3+
 
-### Datasets
+# Pre-requistes
+Main packages required are:
+ - Keras
+ - Tensorflow 1.15.0
+ - Numpy
+ - Skimage
+ - Matplotlib
+
+# Datasets
 We used Google Earth Engine to generate the Dataset from Crop Land Data Layer provided by United States Department of Agriculture (USDA) and National Agricultural Statistics Service (NASS). Our Study area for analyzing performance of segmentation models is comprised of 9 different counties of state of Nebraska, United States of America. We emphasize on Classifying two categories (1) Cultivated and Non-Cultivated Land Cover (2) Out of Cultivated area we classify the crop type i.e. Corn, Soya Bean, Winter Wheat, Alfalfa Hay and Others.
+
+# Visual Results
+Top Images are Landsat8 image, Ground-Truth and Predicted Results for cultivated area respectively (Black pixels represent non-cultivated and white pixels are cultivated area,
+ whereas Bottom Images are of Landsat8, Ground-Truth and classified Crops (Yellow as Corn, Green as Soyabean, orange as Winter Wheat, Pink as Alfalfa and Black as Other crops).
+
+![UNet](Images/visual results.png)
 
