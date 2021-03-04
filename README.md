@@ -26,3 +26,46 @@ Top Images are Landsat8 image, Ground-Truth and Predicted Results for cultivated
 
 ![UNet](Images/visual results.png)
 
+# Quantitative Results
+
+## Dataset: LandCover Classification (Cultivated/Non-Cultivated Land area)
+### UNet
+Results | Values
+------------ | -------------
+Accuracy | 89.5
+Dice co-efficient |89.2
+
+
+### SegNet
+Results | Values
+------------ | -------------
+Accuracy| 74.69
+Dice co-efficient | 73.43
+
+### DeepLabv3
+Results | Values
+------------ | -------------
+Accuracy | 89.13
+Dice co-efficient | 88.6
+
+## Dataset Crop type Classification
+### UNet
+Results | Values
+------------ | -------------
+Accuracy | 67.3
+Dice co-efficient |57.1
+
+
+### SegNet
+Results | Values
+------------ | -------------
+Accuracy| 49.5
+Dice co-efficient | 37.0
+
+### DeepLabv3
+Results | Values
+------------ | -------------
+Accuracy | 69.7
+Dice co-efficient | 62.02
+
+
