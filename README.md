@@ -28,7 +28,7 @@ We used Google Earth Engine to generate the Dataset from Crop Land Data Layer pr
 Top Images are Landsat8 image, Ground-Truth and Predicted Results for cultivated area respectively (Black pixels represent non-cultivated and white pixels are cultivated area,
  whereas Bottom Images are of Landsat8, Ground-Truth and classified Crops (Yellow as Corn, Green as Soyabean, orange as Winter Wheat, Pink as Alfalfa and Black as Other crops).
  
-
+## Cultivated/Non-Cultivated Land Cover
 ![Visual_Results](Images/landcover_1.png)
 ![Visual_Results](Images/landcover_2.png)
 ![Visual_Results](Images/landcover_3.png)
@@ -36,7 +36,7 @@ Top Images are Landsat8 image, Ground-Truth and Predicted Results for cultivated
 ![Visual_Results](Images/landcover_5.png)
 ![Visual_Results](Images/landcover_6.png)
 
-
+## Out of Cultivated area classified Crop Types
 ![Visual_Results](Images/crop_1.png)
 ![Visual_Results](Images/crop_2.png)
 ![Visual_Results](Images/crop_3.png)
@@ -92,15 +92,21 @@ Dice co-efficient | 62.02
 ## UNet
 
 ### Part 1: Cultivated/Non-Cultivated LandCover Classification
-![UNet](Graphs/unet_loss.PNG)
-![UNet](Graphs/unet_Dice_coefficent.PNG)
+Loss: UNet vs SegNet vs DeepLabv3
 
-## SegNet`
-![SegNet](Graphs/segnet_loss.PNG)
-![SegNet](Graphs/segnet_dice_coefficient.PNG)
+![Graphs](Graphs/Cultivated_loss.png)
+Accuracy: UNet vs SegNet vs DeepLabv3
+![Graphs](Graphs/Cultivated_accuracy.png)
+Dice Similarity Co-efficient: UNet vs SegNet vs DeepLabv3
+![Graphs](Graphs/Cultivated_dice.png)
 
-## DeepLabv3
-![DeepLabv3 Loss](Graphs/deep_Dice_Loss.PNG)
-![DeepLabv3 Dice](Graphs/deep_Dice_Co-efficient.PNG)
+### Part 2: Crop Type Classification
+Loss: UNet vs SegNet vs DeepLabv3
+
+![Graphs](Graphs/Crops_loss.png)
+Accuracy: UNet vs SegNet vs DeepLabv3
+![Graphs](Graphs/Crops_accuracy.png)
+Dice Similarity Co-efficient: UNet vs SegNet vs DeepLabv3
+![Graphs](Graphs/Crops_dice.png)
 
 
