@@ -110,3 +110,7 @@ Dice Similarity Co-efficient: UNet vs SegNet vs DeepLabv3
 ![Graphs](Graphs/Crops_dice.png)
 
 
+# Maintainer 
+Asim Hameed Khan (asimhameed.cs@gmail.com)
+
+
