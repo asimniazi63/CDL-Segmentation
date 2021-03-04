@@ -18,13 +18,31 @@ Main packages required are:
  - Matplotlib
 
 # Datasets
-We used Google Earth Engine to generate the Dataset from Crop Land Data Layer provided by United States Department of Agriculture (USDA) and National Agricultural Statistics Service (NASS). Our Study area for analyzing performance of segmentation models is comprised of 9 different counties of state of Nebraska, United States of America. We emphasize on Classifying two categories (1) Cultivated and Non-Cultivated Land Cover (2) Out of Cultivated area we classify the crop type i.e. Corn, Soya Bean, Winter Wheat, Alfalfa Hay and Others.
+We used Google Earth Engine to generate the Dataset from Crop Land Data Layer provided by United States Department of Agriculture (USDA)
+ and National Agricultural Statistics Service (NASS). Our Study area for analyzing performance of segmentation models is comprised of 9 different 
+ counties of state of Nebraska, United States of America. We emphasize on Classifying two categories, thus two different datasets are:-
+ (1) Cultivated and Non-Cultivated Land Cover 
+ (2) Out of Cultivated area we classify the crop type i.e. Corn, Soya Bean, Winter Wheat, Alfalfa Hay and Others.
 
 # Visual Results
 Top Images are Landsat8 image, Ground-Truth and Predicted Results for cultivated area respectively (Black pixels represent non-cultivated and white pixels are cultivated area,
  whereas Bottom Images are of Landsat8, Ground-Truth and classified Crops (Yellow as Corn, Green as Soyabean, orange as Winter Wheat, Pink as Alfalfa and Black as Other crops).
+ 
 
-![UNet](Images/visual_results.png)
+![Visual_Results](Images/landcover_1.png)
+![Visual_Results](Images/landcover_2.png)
+![Visual_Results](Images/landcover_3.png)
+![Visual_Results](Images/landcover_4.png)
+![Visual_Results](Images/landcover_5.png)
+![Visual_Results](Images/landcover_6.png)
+
+
+![Visual_Results](Images/crop_1.png)
+![Visual_Results](Images/crop_2.png)
+![Visual_Results](Images/crop_3.png)
+![Visual_Results](Images/crop_4.png)
+![Visual_Results](Images/crop_5.png)
+![Visual_Results](Images/crop_6.png)
 
 # Quantitative Results
 
@@ -67,5 +85,22 @@ Results | Values
 ------------ | -------------
 Accuracy | 69.7
 Dice co-efficient | 62.02
+
+
+# Performance Graphs
+
+## UNet
+
+### Part 1: Cultivated/Non-Cultivated LandCover Classification
+![UNet](Graphs/unet_loss.PNG)
+![UNet](Graphs/unet_Dice_coefficent.PNG)
+
+## SegNet`
+![SegNet](Graphs/segnet_loss.PNG)
+![SegNet](Graphs/segnet_dice_coefficient.PNG)
+
+## DeepLabv3
+![DeepLabv3 Loss](Graphs/deep_Dice_Loss.PNG)
+![DeepLabv3 Dice](Graphs/deep_Dice_Co-efficient.PNG)
 
 
