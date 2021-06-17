@@ -1,8 +1,10 @@
 # CDL-Segmentation
 This Repository contains code (will be published after paper acceptance) and benchmark results for the paper:
-
+```
 Deep Learning Based Land Cover and Crop Type Classification: A Comparative Study
-
+```
+Paper Link: https://ieeexplore.ieee.org/document/9441483
+<br>
 Accepted at: 2021 International Conference on Digital Futures and Transformative Technologies (ICoDT2) 
 
 # Segmentation Models
